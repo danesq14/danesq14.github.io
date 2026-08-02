@@ -1390,3 +1390,39 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+/*--------------------------------------------------------------
+# Custom Header Layout
+--------------------------------------------------------------*/
+@media (min-width: 1200px) {
+
+  .header .container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  /* Logo a la izquierda */
+  .header .logo {
+    flex: 1;
+  }
+
+  /* Menú centrado */
+  .header .navmenu {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .header .navmenu ul {
+    justify-content: center;
+  }
+
+  /* Redes sociales a la derecha */
+  .header .header-social-links {
+    flex: 1;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 0;
+  }
+
+}
